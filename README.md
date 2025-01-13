@@ -1,10 +1,10 @@
----FindAndCrop Readme---
+# FindAndCrop Readme
 
 Napari Program to automatically detect features on an image and cropping the detected features. The feature detection is based on simple intensity thresholding. The features to be detected can be filtered and selected by their minimum and maximum size. Sigma determines the intensity threshold (sigma std. deviations away from the mean intensity of the image).
 
 Checking the "save" box, will save the crops as .tif images in the selected directory in the dialog. There is an example image in the /TestData directory. 
 
-Required Python packages: 
+## Required Python packages: 
 napari
 numpy
 tkinter
